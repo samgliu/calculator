@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title id="title">Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="header">
+    <h1>Calculator</h1>
+    </div>
+
+
+    
+
+        
+    <div id="result">
+        <p id="res"></p>
+    </div>
+    <div id="container">
+        
+        <div class="buttons num" value=7>
+            <button>7</button>
+        </div>
+        <div class="buttons num" value=8>
+            <button>8</button>
+        </div>
+        <div class="buttons num" value=9>
+            <button>9</button>
+        </div>
+        <div class="buttons">
+            <button id="delete" onclick="deleteLast()">C</button>
+        </div>
+        <div class="buttons">
+            <button onclick="reset()">AC</button>
+        </div>
+        <div class="buttons num" value=4>
+            <button>4</button>
+        </div>
+        <div class="buttons num" value=5>
+            <button>5</button>
+        </div>
+        <div class="buttons num" value=6>
+            <button>6</button>
+        </div>
+        <div class="buttons">
+            <button onclick="pressed('+')">+</button>
+        </div>
+        <div class="buttons">
+            <button onclick="pressed('-')">-</button>
+        </div>
+        <div class="buttons num" value=1>
+            <button>1</button>
+        </div>
+        <div class="buttons num" value=2>
+            <button>2</button>
+        </div>
+        <div class="buttons num" value=3>
+            <button>3</button>
+        </div>
+        <div class="buttons">
+            <button onclick="pressed('*')">×</button>
+        </div>
+        <div class="buttons">
+            <button onclick="pressed('/')">÷</button>
+        </div>
+        <div class="buttons">
+            <button onclick="negateNum()">+/-</button>
+        </div>
+        <div class="buttons num" value=0>
+            <button>0</button>
+        </div>
+        <div class="buttons">
+            <button onclick="addDot()">.</button>
+        </div>
+        <div class="buttons" id="equal" onclick=equal()>
+            <button>=</button>
+        </div>
+    </div>
+    
+    <script src="scripts/scripts.js"></script>
+    
+                                        
+</body>
+</html>
