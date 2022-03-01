@@ -46,6 +46,9 @@ function negateNum() {
     let num = getResult();
     num *= -1;
     updateResult(num);
+    if (preNum != null){
+        preNum *= -1;
+    }
 }
 
 function updateResult(num) {
